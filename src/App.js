@@ -6,6 +6,7 @@ import TaskList from './components/TaskList';
 import TaskForm from './components/TaskForm';
 import VoiceInput from './components/VoiceInput';
 import Navbar from './components/NavBar';
+import ShoppingPage from './page/ShoppingPage';
 
 // Importez ou créez ces composants
 
@@ -14,15 +15,6 @@ function Home() {
     <div className="container mx-auto p-4">
       <h1 className="text-3xl font-bold mb-4">Accueil</h1>
       <p>Bienvenue sur votre application To-Do!</p>
-    </div>
-  );
-}
-
-function Profile() {
-  return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold mb-4">Profil</h1>
-      <p>Voici votre page de profil.</p>
     </div>
   );
 }
@@ -88,8 +80,9 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/todo" element={<TodoComponent />} />
-          <Route path="/profile" element={<Profile />} />
+          <Route path="/shopping" element={<ShoppingPage />} />
           <Route path="/settings" element={<Settings />} />
+          
         </Routes>
         <Navbar />
       </div>

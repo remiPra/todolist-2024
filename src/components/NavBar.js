@@ -14,7 +14,7 @@ function Navbar() {
           <FaListUl className="text-2xl" />
           <span className="text-xs mt-1">To-Do</span>
         </NavLink>
-        <NavLink to="/profile" className={({ isActive }) => `flex flex-col items-center ${isActive ? 'text-blue-500' : 'text-gray-600'}`}>
+        <NavLink to="/shopping" className={({ isActive }) => `flex flex-col items-center ${isActive ? 'text-blue-500' : 'text-gray-600'}`}>
           <FaUserAlt className="text-2xl" />
           <span className="text-xs mt-1">Profil</span>
         </NavLink>
