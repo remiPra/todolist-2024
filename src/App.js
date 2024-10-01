@@ -7,6 +7,7 @@ import TaskForm from './components/TaskForm';
 import VoiceInput from './components/VoiceInput';
 import Navbar from './components/NavBar';
 import ShoppingPage from './page/ShoppingPage';
+import SemelleListPage from './page/SemelleListPage';
 
 // Importez ou créez ces composants
 
@@ -81,7 +82,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/todo" element={<TodoComponent />} />
           <Route path="/shopping" element={<ShoppingPage />} />
-          <Route path="/settings" element={<Settings />} />
+          <Route path="/semelle" element={<SemelleListPage />} />
           
         </Routes>
         <Navbar />

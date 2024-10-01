@@ -18,7 +18,7 @@ function Navbar() {
           <FaUserAlt className="text-2xl" />
           <span className="text-xs mt-1">Profil</span>
         </NavLink>
-        <NavLink to="/settings" className={({ isActive }) => `flex flex-col items-center ${isActive ? 'text-blue-500' : 'text-gray-600'}`}>
+        <NavLink to="/semelle" className={({ isActive }) => `flex flex-col items-center ${isActive ? 'text-blue-500' : 'text-gray-600'}`}>
           <FaCog className="text-2xl" />
           <span className="text-xs mt-1">Réglages</span>
         </NavLink>
